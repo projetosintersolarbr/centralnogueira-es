@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nogueira Brindes | Fabricante e Distribuidora de Brindes Corporativos</title>
+    <!-- Tailwind CSS para design ágil, limpo e responsivo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome para ícones de alta fidelidade -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts: Inter para tipografia moderna e altamente legível -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#09251d',    /* Deep Emerald/Forest Green */
+                        secondary: '#12392f',  /* Slate Green - Fundo de Seção */
+                        accent: '#d9a74a',     /* Ouro/Bronze Elegante */
+                        accentHover: '#c49339',/* Ouro Escuro para Hover */
+                        success: '#10b981',    /* Verde Ativo */
+                        bgLight: '#f3f6f5'     /* Light Sage Grey */
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #12392f;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #d9a74a;
+            border-radius: 3px;
+        }
+        .glow-effect {
+            box-shadow: 0 0 15px rgba(217, 167, 74, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-primary text-slate-100 font-sans antialiased custom-scrollbar">
+
+    <!-- Topbar B2B de Otimização de Compras e Faturamento -->
+    <div class="bg-black text-slate-400 text-[11px] py-2.5 border-b border-slate-900 tracking-wider">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4 flex-wrap justify-center">
+                <span><i class="fa-solid fa-gift text-accent mr-1"></i> Produção Direta (São Paulo/SP)</span>
+                <span class="hidden sm:inline">|</span>
+                <span><i class="fa-solid fa-truck-fast text-accent mr-1"></i> Despacho Expresso para Todo o Brasil</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <span class="font-bold text-white"><i class="fa-solid fa-boxes-stacked text-accent mr-1"></i> Pedido Mínimo Faturado: R$ 1.000</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Principal -->
+    <header class="bg-primary/95 sticky top-0 z-50 shadow-lg border-b border-slate-900 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <!-- Logo Nogueira Brindes -->
+            <div class="flex items-center gap-3">
+                <div class="bg-gradient-to-br from-primary to-secondary text-white p-2.5 rounded-lg flex items-center justify-center border border-accent/25 glow-effect">
+                    <i class="fa-solid fa-award text-xl text-accent"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-black tracking-wider text-white">NOGUEIRA<span class="text-accent">BRINDES</span></span>
+                    <span class="block text-[8px] uppercase tracking-[0.3em] text-slate-400 font-bold">Nogueira Brindes Comercio LTDA</span>
+                </div>
+            </div>
+
+            <!-- Dados Operacionais no Header -->
+            <div class="hidden lg:flex flex-col items-end">
+                <span class="text-xs font-semibold text-slate-400">CNPJ: 00.807.528/0001-77</span>
+                <div class="flex items-center gap-1.5 mt-0.5">
+                    <span class="h-2 w-2 rounded-full bg-success animate-pulse"></span>
+                    <span class="text-[10px] font-bold text-success uppercase tracking-wider">Situação: Ativa • Desde 1995</span>
+                </div>
+            </div>
+            
+            <a href="#contato" class="bg-accent hover:bg-accentHover text-primary px-5 py-2.5 rounded-md text-xs font-bold uppercase tracking-widest transition-all flex items-center gap-2 glow-effect">
+                <i class="fa-solid fa-file-pdf"></i> Baixar Catálogo 2026
+            </a>
+        </div>
+    </header>
+
+    <!-- Seção de Serviços e Linhas de Atuação no Topo -->
+    <section class="bg-secondary border-b border-slate-900 py-6">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center md:text-left mb-4">
+                <span class="text-xs font-bold text-accent uppercase tracking-widest block mb-1">Linha Completa de Suprimento Promocional</span>
+                <h2 class="text-base font-extrabold text-white flex items-center justify-center md:justify-start gap-2">
+                    <i class="fa-solid fa-network-wired text-accent"></i> Principais Linhas de Produção & Serviços de Personalização:
+                </h2>
+            </div>
+            
+            <!-- Grid de Atalhos de Serviços Industriais e Atacado -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+                <!-- Serviço 1 -->
+                <a href="#brindes-termicos" class="bg-primary/50 p-4 rounded-lg border border-slate-800 hover:border-accent hover:shadow-lg transition-all duration-300 group">
+                    <div class="flex items-center gap-3">
+                        <div class="p-2.5 bg-secondary text-slate-300 rounded-md group-hover:bg-accent group-hover:text-primary transition-all">
+                            <i class="fa-solid fa-whiskey-glass text-base"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-extrabold text-white group-hover:text-accent transition-all">Térmicos & Copos</h4>
+                            <p class="text-[9px] text-slate-400 mt-0.5">Squeezes, Garrafas e Canecas Premium</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Serviço 2 -->
+                <a href="#brindes-tecnologicos" class="bg-primary/50 p-4 rounded-lg border border-slate-800 hover:border-accent hover:shadow-lg transition-all duration-300 group">
+                    <div class="flex items-center gap-3">
+                        <div class="p-2.5 bg-secondary text-slate-300 rounded-md group-hover:bg-accent group-hover:text-primary transition-all">
+                            <i class="fa-solid fa-bolt text-base"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-extrabold text-white group-hover:text-accent transition-all">Tecnológicos</h4>
+                            <p class="text-[9px] text-slate-400 mt-0.5">Powerbanks, Pen Drives e Carregadores</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Serviço 3 -->
+                <a href="#linha-escritorio" class="bg-primary/50 p-4 rounded-lg border border-slate-800 hover:border-accent hover:shadow-lg transition-all duration-300 group">
+                    <div class="flex items-center gap-3">
+                        <div class="p-2.5 bg-secondary text-slate-300 rounded-md group-hover:bg-accent group-hover:text-primary transition-all">
+                            <i class="fa-solid fa-pen-nib text-base"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-extrabold text-white group-hover:text-accent transition-all">Escritório & Executivo</h4>
+                            <p class="text-[9px] text-slate-400 mt-0.5">Canetas, Cadernos e Moleskines Móbiles</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Serviço 4 -->
+                <a href="#brindes-ecologicos" class="bg-primary/50 p-4 rounded-lg border border-slate-800 hover:border-accent hover:shadow-lg transition-all duration-300 group">
+                    <div class="flex items-center gap-3">
+                        <div class="p-2.5 bg-secondary text-slate-300 rounded-md group-hover:bg-accent group-hover:text-primary transition-all">
+                            <i class="fa-solid fa-leaf text-base"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-extrabold text-white group-hover:text-accent transition-all">Linha Ecológica</h4>
+                            <p class="text-[9px] text-slate-400 mt-0.5">Sacolas Ecobags, Bambu e Recicláveis</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section de Alta Performance B2B -->
+    <section class="relative bg-gradient-to-br from-[#04110e] via-primary to-[#020706] text-white overflow-hidden py-16 lg:py-24 border-b border-slate-900">
+        <!-- Padrão geométrico tecnológico suave de fundo -->
+        <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#d9a74a_1px,transparent_1px)] [background-size:24px_24px]"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Cópia Comercial (Copywriting) -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2 bg-accent/10 border border-accent/35 text-accent px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase">
+                        <i class="fa-solid fa-medal"></i> Fabricante e Distribuidora Oficial de Brindes • Desde 1995
+                    </div>
+                    
+                    <h1 class="text-3xl md:text-5xl font-black leading-tight tracking-tight text-white">
+                        Fabricante de produtos em alumínio e brindes para <span class="text-accent">revendedores, distribuidores e lojas</span>.
+                    </h1>
+                    
+                    <p class="text-slate-400 text-sm md:text-base max-w-xl leading-relaxed">
+                        Abasteça o seu estoque de materiais promocionais, personalize campanhas corporativas ou atenda clientes finais com preço direto de fábrica. Atendimento de excelência voltado para atacado em todo o Brasil.
+                    </p>
+
+                    <!-- Benefícios Rápidos com Ícones -->
+                    <div class="grid sm:grid-cols-2 gap-4 pt-4">
+                        <div class="flex items-start gap-3">
+                            <span class="text-accent bg-accent/10 p-2 rounded-md mt-0.5"><i class="fa-solid fa-receipt"></i></span>
+                            <div>
+                                <h3 class="font-bold text-xs uppercase tracking-wider text-white">Pedido Mínimo de R$ 1.000</h3>
+                                <p class="text-[11px] text-slate-400">Condições de faturamento exclusivas para CNPJ corporativo e lojistas.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="text-accent bg-accent/10 p-2 rounded-md mt-0.5"><i class="fa-solid fa-clock"></i></span>
+                            <div>
+                                <h3 class="font-bold text-xs uppercase tracking-wider text-white">Prazo de Produção Recorde</h3>
+                                <p class="text-[11px] text-slate-400">Logística de personalização ágil para atender cronogramas de eventos apertados.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="text-accent bg-accent/10 p-2 rounded-md mt-0.5"><i class="fa-solid fa-scale-balanced"></i></span>
+                            <div>
+                                <h3 class="font-bold text-xs uppercase tracking-wider text-white">Optante pelo Simples Nacional</h3>
+                                <p class="text-[11px] text-slate-400">Transparência fiscal completa para compras em lote sem burocracia interestadual.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="text-accent bg-accent/10 p-2 rounded-md mt-0.5"><i class="fa-solid fa-warehouse"></i></span>
+                            <div>
+                                <h3 class="font-bold text-xs uppercase tracking-wider text-white">Estoque Pronta Entrega de Insumos</h3>
+                                <p class="text-[11px] text-slate-400">Ampla capacidade de fabricação em nossa matriz baseada em São Paulo/SP.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formulário de Leads Focado em Conversão -->
+                <div class="lg:col-span-5" id="contato">
+                    <div class="bg-secondary rounded-xl p-6 lg:p-8 text-slate-100 shadow-2xl border border-slate-800 relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-accent/10 rounded-full blur-2xl -mr-16 -mt-16"></div>
+                        <h3 class="text-xl font-black text-white tracking-tight relative z-10">Canal de Atendimento Atacado</h3>
+                        <p class="text-xs text-slate-400 mt-1 mb-6 relative z-10">Cadastre seus dados para receber nosso catálogo completo de importações e fabricações com tabela de preços diferenciada.</p>
+                        
+                        <form id="leadForm" onsubmit="handleFormSubmit(event)" class="space-y-4 relative z-10">
+                            <div>
+                                <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-widest mb-1" for="name">Nome do Comprador / Representante</label>
+                                <input class="w-full bg-primary border border-slate-800 rounded-md px-4 py-2.5 text-xs text-white outline-none focus:border-accent transition-all" type="text" id="name" required placeholder="Ex: Fábio Nogueira">
+                            </div>
+                            
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-widest mb-1" for="cnpj">CNPJ do Comprador</label>
+                                    <input class="w-full bg-primary border border-slate-800 rounded-md px-4 py-2.5 text-xs text-white outline-none focus:border-accent transition-all" type="text" id="cnpj" required placeholder="00.807.528/0001-77">
+                                </div>
+                                <div>
+                                    <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-widest mb-1" for="whatsapp">WhatsApp Comercial</label>
+                                    <input class="w-full bg-primary border border-slate-800 rounded-md px-4 py-2.5 text-xs text-white outline-none focus:border-accent transition-all" type="tel" id="whatsapp" required placeholder="(11) 99999-9999">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-widest mb-1" for="segment">Seu Modelo Comercial</label>
+                                <select class="w-full bg-primary border border-slate-800 rounded-md px-4 py-2.5 text-xs text-slate-300 outline-none focus:border-accent transition-all" id="segment" required>
+                                    <option value="" disabled selected>Selecione seu modelo de compras</option>
+                                    <option value="distribuidor">Distribuidora de Brindes / Agência de Eventos</option>
+                                    <option value="revendedor">Revendedor Autônomo</option>
+                                    <option value="lojista">Lojista de Artigos Domésticos / Variedades</option>
+                                    <option value="corporativo">Compra de Brindes para Uso Próprio (Acima de R$ 1.000)</option>
+                                </select>
+                            </div>
+
+                            <button type="submit" class="w-full bg-accent hover:bg-accentHover text-primary py-3 rounded-md font-bold text-xs tracking-widest uppercase transition-all shadow-md transform active:scale-95 flex items-center justify-center gap-2 glow-effect">
+                                <i class="fa-solid fa-lock"></i> Solicitar Acesso à Tabela Atacadista
+                            </button>
+                            
+                            <p class="text-[10px] text-center text-slate-500 mt-2">
+                                <i class="fa-solid fa-shield-halved text-accent mr-1"></i> Seus dados estão em conformidade com as diretrizes da LGPD.
+                            </p>
+                        </form>
+
+                        <!-- Mensagem de Sucesso Amigável -->
+                        <div id="successMessage" class="hidden text-center py-6 space-y-4">
+                            <div class="mx-auto w-12 h-12 bg-accent/20 text-accent rounded-full flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-envelope-circle-check"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-extrabold text-white">Solicitação de Atacado Recebida!</h4>
+                                <p class="text-xs text-slate-400 mt-1">Nossos consultores comerciais de São Paulo estão de prontidão. Clique no botão abaixo para agilizar sua cotação diretamente via WhatsApp.</p>
+                            </div>
+                            <a id="successWhatsappLink" href="#" target="_blank" class="inline-flex items-center gap-2 bg-success hover:bg-emerald-600 text-white px-5 py-2.5 rounded-md text-xs font-bold uppercase tracking-wider transition-all w-full justify-center shadow">
+                                <i class="fa-brands fa-whatsapp text-base"></i> Abrir WhatsApp Comercial
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Proposta de Valor e Diferenciais de Fábrica -->
+    <section class="py-20 bg-secondary">
+        <div class="max-w-7xl mx-auto px-4">
+            
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-accent font-extrabold text-xs tracking-widest uppercase">Tradição & Qualidade Industrial</span>
+                <h2 class="text-3xl font-black text-white tracking-tight mt-1">Por que escolher a Nogueira Brindes?</h2>
+                <p class="text-slate-400 text-sm mt-3">Com mais de três décadas de história em São Paulo, somos referência na fabricação de produtos metálicos e plásticos personalizados de alta rotatividade de mercado.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-primary/50 p-8 rounded-xl border border-slate-800 hover:shadow-lg hover:border-accent/40 transition-all">
+                    <div class="text-accent bg-accent/10 w-12 h-12 rounded-lg flex items-center justify-center text-lg font-bold mb-6">
+                        <i class="fa-solid fa-industry"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-white mb-3">Fabricação Própria de Insumos</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed">Contamos com processos industriais e maquinário de gravação de ponta em nossa sede de Pirituba, garantindo acabamento impecável, seja a laser, silk ou transfer.</p>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="bg-primary/50 p-8 rounded-xl border border-slate-800 hover:shadow-lg hover:border-accent/40 transition-all">
+                    <div class="text-accent bg-accent/10 w-12 h-12 rounded-lg flex items-center justify-center text-lg font-bold mb-6">
+                        <i class="fa-solid fa-percent"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-white mb-3">Tributação Simplificada (Simples)</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed">Como empresa optante pelo Simples Nacional, eliminamos barreiras burocráticas no faturamento interestadual, proporcionando economia de impostos na sua aquisição B2B.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-primary/50 p-8 rounded-xl border border-slate-800 hover:shadow-lg hover:border-accent/40 transition-all">
+                    <div class="text-accent bg-accent/10 w-12 h-12 rounded-lg flex items-center justify-center text-lg font-bold mb-6">
+                        <i class="fa-solid fa-shield-heart"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-white mb-3">Controle de Qualidade em Lote</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed">Nossa produção passa por rigorosos testes individuais de vazamento para térmicos e checagem de gravação, evitando avarias de pós-venda em sua distribuição.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Seção Interativa: Simulador de Orçamento de Brindes em Grande Volume -->
+    <section class="py-16 bg-primary text-white relative overflow-hidden border-t border-slate-900">
+        <div class="max-w-4xl mx-auto px-4 relative z-10">
+            <div class="text-center mb-10">
+                <span class="text-accent text-xs font-bold uppercase tracking-widest">Simulador de Condições B2B</span>
+                <h2 class="text-2xl md:text-3xl font-black mt-1">Estime Suas Vantagens e Margem de Compra</h2>
+                <p class="text-xs text-slate-400 mt-2">Ajuste o volume esperado de compras abaixo e verifique suas faixas de desconto direto de fábrica.</p>
+            </div>
+
+            <div class="bg-secondary rounded-xl p-6 md:p-8 border border-slate-800 shadow-2xl">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Controles -->
+                    <div class="space-y-6">
+                        <div>
+                            <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">1. Escolha a Categoria de Brinde:</label>
+                            <div class="grid grid-cols-2 gap-3">
+                                <button type="button" onclick="setSimulateType('termicos')" id="simTypeTermicos" class="bg-accent/10 border-2 border-accent text-white px-3 py-2.5 rounded-md text-xs font-bold tracking-wider transition-all flex items-center justify-center gap-1.5">
+                                    <i class="fa-solid fa-whiskey-glass text-accent"></i> Copos & Térmicos
+                                </button>
+                                <button type="button" onclick="setSimulateType('outros')" id="simTypeOutros" class="bg-primary border border-slate-800 text-slate-400 hover:bg-slate-800 px-3 py-2.5 rounded-md text-xs font-bold tracking-wider transition-all flex items-center justify-center gap-1.5">
+                                    <i class="fa-solid fa-gift text-accent"></i> Corporativos Diversos
+                                </button>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between text-xs font-bold mb-2">
+                                <span class="text-slate-300 uppercase tracking-wider">2. Ajuste o Volume de Compra Mensal:</span>
+                                <span class="text-accent font-extrabold" id="rangeValue">R$ 2.000</span>
+                            </div>
+                            <input type="range" id="budgetRange" min="1000" max="100000" step="1000" value="2000" oninput="updateSimulation()" class="w-full accent-accent bg-slate-800 h-2 rounded-md appearance-none cursor-pointer">
+                            <div class="flex justify-between text-[10px] text-slate-500 mt-1">
+                                <span>R$ 1.000 (Mínimo B2B)</span>
+                                <span>R$ 100.000+</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Resultado da Simulação -->
+                    <div class="bg-[#04110e] p-6 rounded-lg border border-slate-800 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[9px] bg-accent/20 text-accent font-extrabold px-2 py-1 rounded-md uppercase tracking-widest">Nível de Parceria / Desconto</span>
+                            <div class="mt-4">
+                                <div class="text-3xl font-black text-white" id="discountPercent">10% OFF</div>
+                                <p class="text-xs text-slate-400 mt-1">Margem Projetada para Revenda: <strong class="text-accent" id="resMargin">35% a 45% Bruto</strong></p>
+                            </div>
+                        </div>
+                        
+                        <div class="border-t border-slate-800 pt-4 mt-4 space-y-3">
+                            <div class="flex justify-between text-[11px]">
+                                <span class="text-slate-400">Personalização Inclusa:</span>
+                                <span class="font-bold text-white" id="laserDetails">Sim • Gravação a Laser</span>
+                            </div>
+                            <div class="flex justify-between text-[11px]">
+                                <span class="text-slate-400">Canal de Faturamento:</span>
+                                <span class="font-bold text-white">Simples Nacional (SP)</span>
+                            </div>
+                            <a href="#contato" class="block text-center bg-accent hover:bg-accentHover text-primary py-2.5 rounded-md text-xs font-bold uppercase tracking-widest transition-all mt-2 glow-effect">
+                                Negociar este Volume
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prova Social Quantitativa (Estatísticas Corporativas) -->
+    <section class="bg-black text-white py-12 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <!-- Dado 1 -->
+                <div class="space-y-1">
+                    <div class="text-3xl md:text-4xl font-black text-accent tracking-tight">30+ Anos</div>
+                    <div class="text-[10px] text-slate-400 uppercase tracking-widest font-bold">Fundada em 1995</div>
+                </div>
+                <!-- Dado 2 -->
+                <div class="space-y-1">
+                    <div class="text-3xl md:text-4xl font-black text-accent tracking-tight">+500 Mil</div>
+                    <div class="text-[10px] text-slate-400 uppercase tracking-widest font-bold">Brindes Customizados Entregues</div>
+                </div>
+                <!-- Dado 3 -->
+                <div class="space-y-1">
+                    <div class="text-3xl md:text-4xl font-black text-accent tracking-tight">+2.000</div>
+                    <div class="text-[10px] text-slate-400 uppercase tracking-widest font-bold">Empresas e Revendas Atendidas</div>
+                </div>
+                <!-- Dado 4 -->
+                <div class="space-y-1">
+                    <div class="text-3xl md:text-4xl font-black text-accent tracking-tight">Ativa</div>
+                    <div class="text-[10px] text-slate-400 uppercase tracking-widest font-bold">Situação Cadastral Regularizada</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria de Portfólio de Produtos e Fábrica -->
+    <section id="galeria" class="py-20 bg-secondary border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Imagens de Produção e Personalização -->
+                <div class="lg:col-span-6 grid grid-cols-2 gap-4">
+                    <div class="space-y-4">
+                        <div class="h-44 rounded-xl overflow-hidden shadow-md border border-slate-800">
+                            <img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=400&q=80" alt="Personalização de Copos e Squeezes">
+                        </div>
+                        <div class="h-60 rounded-xl overflow-hidden shadow-md border border-slate-800">
+                            <img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1542744094-3a31f103e35f?auto=format&fit=crop&w=400&q=80" alt="Processo de gravação de logos">
+                        </div>
+                    </div>
+                    <div class="space-y-4 pt-8">
+                        <div class="h-60 rounded-xl overflow-hidden shadow-md border border-slate-800">
+                            <img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=400&q=80" alt="Equipe de Projetos B2B Nogueira">
+                        </div>
+                        <div class="h-44 rounded-xl overflow-hidden shadow-md border border-slate-800">
+                            <img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=400&q=80" alt="Logística e Despacho de Pedidos">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Detalhes Históricos e Atuação no Mercado Nacional -->
+                <div class="lg:col-span-6 space-y-6">
+                    <span class="text-accent font-extrabold text-xs tracking-widest uppercase">Mais de 3 Décadas de Sucesso</span>
+                    <h2 class="text-3xl font-black text-white tracking-tight">Histórico de Excelência na Grande São Paulo</h2>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Fundada em **24/08/1995**, a **Nogueira Brindes** iniciou suas atividades no tradicional polo comercial de São Paulo, pavimentando uma trajetória de credibilidade e atendimento primoroso a corporações de todos os portes.
+                    </p>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Operamos com processos automatizados que viabilizam personalização em massa, oferecendo preços imbatíveis para revendedores e lotes volumosos de canetas, térmicos, mochilas, chaveiros e utensílios plásticos domésticos.
+                    </p>
+                    
+                    <div class="space-y-3">
+                        <div class="flex items-center gap-3">
+                            <span class="text-accent text-base"><i class="fa-solid fa-circle-check"></i></span>
+                            <span class="text-xs font-bold text-slate-300">Gravação precisa via CNC Laser e Silk de alta fixação</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-accent text-base"><i class="fa-solid fa-circle-check"></i></span>
+                            <span class="text-xs font-bold text-slate-300">Processo ágil de separação no polo industrial de Pirituba-SP</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-accent text-base"><i class="fa-solid fa-circle-check"></i></span>
+                            <span class="text-xs font-bold text-slate-300">Previsibilidade total de entrega para agendamento de eventos</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Localização Estratégica -->
+    <section id="localizacao" class="py-16 bg-primary border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-4">
+            
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-accent font-extrabold text-xs tracking-widest uppercase">Presença Física</span>
+                <h2 class="text-2xl font-black text-white tracking-tight mt-1">Localização e Detalhes da Operação</h2>
+                <p class="text-slate-400 text-xs mt-2">Diferente de e-commerces comuns sem estrutura própria, a Nogueira possui operação consolidada em local de fácil acesso para transportadoras e coleta de lotes.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Informações do Registro Corporativo -->
+                <div class="bg-secondary p-6 md:p-8 rounded-xl border border-slate-800 flex gap-4">
+                    <div class="text-accent text-2.5xl pt-1">
+                        <i class="fa-solid fa-address-card"></i>
+                    </div>
+                    <div>
+                        <span class="bg-primary text-slate-300 text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded">Ficha Cadastral</span>
+                        <h3 class="font-bold text-base text-white mt-2">Dados de Conformidade</h3>
+                        <p class="text-xs text-slate-400 mt-2 leading-relaxed">Sociedade Empresária Limitada enquadrada como Micro Empresa, com foco em faturamento rápido via Simples Nacional (Opção desde 01/07/2007). Uma operação de 30 anos com total regularidade fiscal.</p>
+                        <p class="text-[10px] font-semibold text-slate-500 mt-3">Razão Social: Nogueira Brindes Comercio LTDA</p>
+                    </div>
+                </div>
+
+                <!-- Endereço e Distribuição -->
+                <div class="bg-secondary p-6 md:p-8 rounded-xl border border-slate-800 flex gap-4">
+                    <div class="text-accent text-2.5xl pt-1">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div>
+                        <span class="bg-primary text-slate-300 text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded">Matriz de Produção</span>
+                        <h3 class="font-bold text-base text-white mt-2">Pirituba, São Paulo - SP</h3>
+                        <p class="text-xs text-slate-400 mt-2 leading-relaxed">Sede gerencial instalada na Rua Visconde Cavalcanti, 52, com conexão direta aos principais corredores logísticos da capital paulista para envios urgentes de mercadorias.</p>
+                        <p class="text-[10px] text-slate-500 mt-2">Rua Visconde Cavalcanti, 52 • Bairro: Pirituba • CEP: 02931-070</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FAQ - Dúvidas Comuns de Compradores B2B -->
+    <section class="py-16 bg-secondary border-t border-slate-900">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <span class="text-accent text-xs font-bold uppercase tracking-widest">Suporte Técnico-Comercial</span>
+                <h2 class="text-2xl font-black text-white mt-1">Perguntas B2B Frequentes</h2>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="bg-primary/50 p-5 rounded-lg border border-slate-800 shadow-sm">
+                    <button class="w-full text-left flex justify-between items-center font-bold text-sm text-white" onclick="toggleFaq(1)">
+                        <span>Qual é o pedido mínimo para compras com preço de fábrica?</span>
+                        <i id="faq-icon-1" class="fa-solid fa-chevron-down text-accent"></i>
+                    </button>
+                    <div id="faq-content-1" class="hidden mt-3 text-xs text-slate-400 leading-relaxed border-t border-slate-800 pt-3">
+                        Nosso faturamento comercial voltado para atacado exige o ticket mínimo operacional de **R$ 1.000,00**. Isso viabiliza darmos as melhores condições de personalização, margens de lucro para revendedores e despachos programados em lote.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="bg-primary/50 p-5 rounded-lg border border-slate-800 shadow-sm">
+                    <button class="w-full text-left flex justify-between items-center font-bold text-sm text-white" onclick="toggleFaq(2)">
+                        <span>Vocês fornecem mostruário para revendedores ou representantes?</span>
+                        <i id="faq-icon-2" class="fa-solid fa-chevron-down text-accent"></i>
+                    </button>
+                    <div id="faq-content-2" class="hidden mt-3 text-xs text-slate-400 leading-relaxed border-t border-slate-800 pt-3">
+                        Sim, disponibilizamos pacotes de amostras físicas sem personalização (mostruários básicos) com custo subsidiado para parceiros recorrentes. Também enviamos provas virtuais layouts digitais sem custos para validação de marcas corporativas.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="bg-primary/50 p-5 rounded-lg border border-slate-800 shadow-sm">
+                    <button class="w-full text-left flex justify-between items-center font-bold text-sm text-white" onclick="toggleFaq(3)">
+                        <span>Como é gerenciada a tributação interestadual?</span>
+                        <i id="faq-icon-3" class="fa-solid fa-chevron-down text-accent"></i>
+                    </button>
+                    <div id="faq-content-3" class="hidden mt-3 text-xs text-slate-400 leading-relaxed border-t border-slate-800 pt-3">
+                        Sendo uma empresa enquadrada no regime de **Simples Nacional**, a Nogueira Brindes gera notas fiscais facilitadas com as alíquotas simplificadas unificadas, minimizando burocracias de substituição tributária (ST) na maioria das categorias promocionais.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final Corporativo -->
+    <section class="bg-primary py-16 text-white text-center border-t border-slate-900">
+        <div class="max-w-4xl mx-auto px-4 space-y-6">
+            <h2 class="text-2xl md:text-3.5xl font-black tracking-tight">Abasteça suas campanhas ou sua loja hoje</h2>
+            <p class="text-sm text-slate-400 max-w-xl mx-auto">
+                Conecte-se com nossa equipe comercial de São Paulo via WhatsApp ou preencha o formulário para receber as tabelas e novidades da linha de brindes executivos.
+            </p>
+            <div class="pt-4 flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="https://wa.me/551138553439?text=Olá! Gostaria de receber o catálogo de atacado da Nogueira Brindes." class="inline-flex items-center gap-2.5 bg-accent text-primary hover:bg-accentHover px-8 py-4 rounded-md font-extrabold text-xs tracking-wider uppercase shadow-2xl transition-all glow-effect" target="_blank">
+                    <i class="fa-brands fa-whatsapp text-base"></i> Abrir WhatsApp (11) 3855-3439
+                </a>
+                <a href="#contato" class="inline-flex items-center gap-1.5 border border-slate-800 hover:border-slate-500 px-6 py-4 rounded-md font-extrabold text-xs tracking-wider uppercase transition-all">
+                    Solicitar por Formulário
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Botão Flutuante de WhatsApp Comercial -->
+    <a href="https://wa.me/551138553439?text=Olá! Gostaria de receber o catálogo de atacado da Nogueira Brindes." class="fixed bottom-6 right-6 bg-emerald-600 hover:bg-emerald-700 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-2xl z-50 transition-all hover:scale-110 animate-bounce" target="_blank" title="Fale comercialmente com a Nogueira Brindes">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Rodapé Corporativo e Termos de Conformidade Google Ads -->
+    <footer class="bg-[#030d0a] text-slate-500 text-xs py-16 border-t border-slate-950">
+        <div class="max-w-7xl mx-auto px-4">
+            
+            <div class="grid md:grid-cols-12 gap-12 border-b border-slate-900 pb-12 mb-12">
+                <!-- Coluna 1: Dados Cadastrais -->
+                <div class="md:col-span-5 space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="bg-gradient-to-br from-primary to-secondary text-white p-2 rounded flex items-center justify-center border border-slate-800">
+                            <i class="fa-solid fa-award text-xs text-accent"></i>
+                        </div>
+                        <span class="text-xs font-black tracking-widest text-white uppercase">NOGUEIRA BRINDES COMERCIO LTDA</span>
+                    </div>
+                    <p class="leading-relaxed text-slate-500 text-[11px]">
+                        **Nogueira Brindes** • CNPJ: 00.807.528/0001-77 • IE: 116.998.726.113<br>
+                        Produção especializada de materiais promocionais em alumínio, plástico e componentes premium customizados.
+                    </p>
+                    <p class="text-[9px] text-slate-600">
+                        Regime Tributário: Optante pelo Simples Nacional • Sede administrativa estabelecida em Pirituba, São Paulo/SP desde 24/08/1995.
+                    </p>
+                </div>
+
+                <!-- Coluna 2: Contatos e Atendimento -->
+                <div class="md:col-span-3 space-y-3">
+                    <h4 class="font-extrabold text-white text-[11px] uppercase tracking-widest">Canais de Venda B2B</h4>
+                    <ul class="space-y-2 text-slate-500 text-[11px]">
+                        <li><i class="fa-solid fa-phone text-accent mr-1.5"></i> (11) 3855-3439</li>
+                        <li><i class="fa-solid fa-phone text-accent mr-1.5"></i> (11) 3855-3438</li>
+                        <li><i class="fa-solid fa-envelope text-accent mr-1.5"></i> fabio@coancontabil.com.br</li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 3: Endereço -->
+                <div class="md:col-span-4 space-y-3">
+                    <h4 class="font-extrabold text-white text-[11px] uppercase tracking-widest">Matriz Industrial</h4>
+                    <p class="leading-relaxed text-[11px] text-slate-500">
+                        Rua Visconde Cavalcanti, 52<br>
+                        Bairro: Pirituba • CEP: 02931-070<br>
+                        São Paulo - SP
+                    </p>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Rua+Visconde+Cavalcanti+52+Pirituba+Sao+Paulo" target="_blank" class="inline-flex items-center gap-1.5 text-accent hover:text-white font-bold mt-1 transition-all">
+                        <i class="fa-solid fa-map-location-dot text-xs"></i> Localizar Matriz no Maps
+                    </a>
+                </div>
+            </div>
+
+            <!-- Rodapé e Termos de Conformidade Google Ads -->
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                <p class="text-center md:text-left text-[11px] text-slate-600">
+                    &copy; 2026 Nogueira Brindes. Todos os direitos reservados. CNPJ: 00.807.528/0001-77.
+                </p>
+                
+                <!-- Links Obrigatórios de Política de Privacidade de Landing Pages para Google Ads -->
+                <div class="flex items-center gap-4 flex-wrap justify-center text-[11px] text-slate-600 font-bold">
+                    <a href="javascript:void(0)" onclick="openModal('privacy')" class="hover:text-slate-400 transition-all">Política de Privacidade</a>
+                    <span>|</span>
+                    <a href="javascript:void(0)" onclick="openModal('terms')" class="hover:text-slate-400 transition-all">Termos de Uso</a>
+                    <span>|</span>
+                    <a href="javascript:void(0)" onclick="openModal('cookies')" class="hover:text-slate-400 transition-all">Política de Cookies</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Modais para Política de Privacidade, Termos de Uso e Cookies (Requisito Google Ads) -->
+    <div id="policyModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-[100] hidden items-center justify-center p-4">
+        <div class="bg-secondary border border-slate-800 rounded-xl max-w-2xl w-full p-6 md:p-8 max-h-[80vh] overflow-y-auto relative">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white text-lg">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <h3 id="modalTitle" class="text-lg font-bold text-white mb-4 uppercase tracking-wider"></h3>
+            <div id="modalContent" class="text-xs text-slate-400 leading-relaxed space-y-4"></div>
+        </div>
+    </div>
+
+    <!-- Script de Interações e Dinâmica da Landing Page -->
+    <script>
+        // Configuração de dados de simulação
+        let currentType = 'termicos';
+
+        function setSimulateType(type) {
+            currentType = type;
+            const btnTermicos = document.getElementById('simTypeTermicos');
+            const btnOutros = document.getElementById('simTypeOutros');
+            
+            if (type === 'termicos') {
+                btnTermicos.className = 'bg-accent/10 border-2 border-accent text-white px-3 py-2.5 rounded-md text-xs font-bold tracking-wider transition-all flex items-center justify-center gap-1.5';
+                btnOutros.className = 'bg-primary border border-slate-800 text-slate-400 hover:bg-slate-800 px-3 py-2.5 rounded-md text-xs font-bold tracking-wider transition-all flex items-center justify-center gap-1.5';
+            } else {
+                btnOutros.className = 'bg-accent/10 border-2 border-accent text-white px-3 py-2.5 rounded-md text-xs font-bold tracking-wider transition-all flex items-center justify-center gap-1.5';
+                btnTermicos.className = 'bg-primary border border-slate-800 text-slate-400 hover:bg-slate-800 px-3 py-2.5 rounded-md text-xs font-bold tracking-wider transition-all flex items-center justify-center gap-1.5';
+            }
+            updateSimulation();
+        }
+
+        function updateSimulation() {
+            const range = document.getElementById('budgetRange');
+            const value = parseInt(range.value);
+            
+            // Formatando o valor em Real brasileiro
+            document.getElementById('rangeValue').innerText = value.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+            
+            let discount = '5% OFF';
+            let margin = '35% a 40% Bruto';
+            let rmaTier = 'Gravação Laser Unilateral';
+            
+            if (value >= 80000) {
+                discount = '25% OFF';
+                margin = '50% a 60% Bruto';
+                rmaTier = 'Gravação Laser Infinita + Frete Pago';
+            } else if (value >= 40000) {
+                discount = '20% OFF';
+                margin = '45% a 55% Bruto';
+                rmaTier = 'Gravação Dupla Face a Laser Grátis';
+            } else if (value >= 15000) {
+                discount = '15% OFF';
+                margin = '40% a 50% Bruto';
+                rmaTier = 'Gravação 360 Graus Rotativa';
+            } else if (value >= 5000) {
+                discount = '10% OFF';
+                margin = '35% a 45% Bruto';
+                rmaTier = 'Gravação Laser Unilateral Incluso';
+            }
+            
+            if (currentType === 'outros') {
+                rmaTier += ' (Silk ou Tampografia)';
+            }
+            
+            document.getElementById('discountPercent').innerText = discount;
+            document.getElementById('resMargin').innerText = margin;
+            document.getElementById('laserDetails').innerText = rmaTier;
+        }
+
+        // Lógica de FAQ Accordion
+        function toggleFaq(index) {
+            const content = document.getElementById(`faq-content-${index}`);
+            const icon = document.getElementById(`faq-icon-${index}`);
+            
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.classList.add('rotate-180');
+            } else {
+                content.classList.add('hidden');
+                icon.classList.remove('rotate-180');
+            }
+        }
+
+        // Submissão de Formulário segura (Google Ads compliant)
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value;
+            const cnpj = document.getElementById('cnpj').value;
+            const whatsapp = document.getElementById('whatsapp').value;
+            const segment = document.getElementById('segment').value;
+            
+            // Formatando o link de WhatsApp para redirecionamento após preenchimento
+            const textMsg = `Olá! Meu nome é ${encodeURIComponent(name)}, falo em nome da empresa CNPJ ${encodeURIComponent(cnpj)}. Gostaria de solicitar acesso às tabelas comerciais de brindes para ${encodeURIComponent(segment)}.`;
+            const waUrl = `https://wa.me/551138553439?text=${textMsg}`;
+            
+            // Ocultando o formulário e exibindo a mensagem de sucesso customizada
+            document.getElementById('leadForm').classList.add('hidden');
+            const successDiv = document.getElementById('successMessage');
+            successDiv.classList.remove('hidden');
+            document.getElementById('successWhatsappLink').setAttribute('href', waUrl);
+        }
+
+        // Conteúdos para Modal de Política (Exigência de Compliance do Google Ads)
+        const policyTexts = {
+            privacy: {
+                title: "Política de Privacidade",
+                text: `<p>A presente Política de Privacidade regula o tratamento dos dados pessoais coletados por meio da nossa landing page comercial destinada ao faturamento atacadista e distribuição corporativa de brindes promocionais.</p>
+                       <p><strong>1. Coleta de Informações:</strong> Coletamos dados como nome corporativo, e-mail comercial, CNPJ, telefone celular corporativo e informações logísticas necessárias exclusivamente para a validação cadastral da sua empresa.</p>
+                       <p><strong>2. Uso de Dados:</strong> Seus dados são utilizados para personalizar o envio de nossos catálogos de brindes, validar a conformidade da Inscrição Estadual de sua revenda e facilitar o redirecionamento seguro para nosso canal de atendimento WhatsApp.</p>
+                       <p><strong>3. Armazenamento e Segurança:</strong> Empregamos protocolos rígidos de segurança para criptografar os dados corporativos em nossos servidores locais de São Paulo, protegendo-os de acessos não autorizados.</p>`
+            },
+            terms: {
+                title: "Termos de Uso",
+                text: `<p>Ao navegar por esta landing page, você aceita de forma irrestrita os termos de conformidade de canais comerciais atacadistas estipulados pela Nogueira Brindes Comercio LTDA.</p>
+                       <p><strong>1. Escopo de Fornecimento B2B:</strong> O acesso às tabelas de preços de atacado e faturamentos sob demanda exige o cadastramento prévio de um CNPJ ativo na Receita Federal do Brasil.</p>
+                       <p><strong>2. Margem de Pedido Mínimo:</strong> Todo faturamento corporativo ou lote personalizado exige o valor mínimo operacional de R$ 1.000,00.</p>
+                       <p><strong>3. Isenção de Vínculo:</strong> Reservamo-nos o direito de negar credenciamentos comerciais caso os dados inseridos apresentem irregularidades cadastrais ou ausência de IE correspondente.</p>`
+            },
+            cookies: {
+                title: "Política de Cookies",
+                text: `<p>Utilizamos cookies estritamente necessários e analíticos de rastreamento de anúncios (Google Ads, Meta Pixels) para otimizar a usabilidade do nosso formulário de captura e analisar o alcance das nossas campanhas comerciais de brindes.</p>
+                       <p><strong>Configuração:</strong> Você poderá desativar os cookies de remarketing do Google alterando diretamente as configurações de privacidade do seu navegador principal sem prejuízo de acesso ao preenchimento do nosso formulário de leads.</p>`
+            }
+        };
+
+        function openModal(type) {
+            const modal = document.getElementById('policyModal');
+            const titleEl = document.getElementById('modalTitle');
+            const contentEl = document.getElementById('modalContent');
+            
+            titleEl.innerText = policyTexts[type].title;
+            contentEl.innerHTML = policyTexts[type].text;
+            
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('policyModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        // Carregamento Inicial do Simulador
+        window.onload = function() {
+            updateSimulation();
+        }
+    </script>
+</body>
+</html>
